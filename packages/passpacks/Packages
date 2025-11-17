@@ -1,0 +1,192 @@
+Package: chinadns-ng
+Version: 2025.08.09-r1
+Depends: libc
+License: AGPL-3.0-only
+Section: net
+URL: https://github.com/zfl9/chinadns-ng
+Architecture: mipsel_24kc
+Installed-Size: 655360
+Filename: chinadns-ng_2025.08.09-r1_mipsel_24kc.ipk
+Size: 299513
+SHA256sum: bde547b9ca6719cf0b6cb8dd40f6c865b0e58dc6d8af5aa0d8c5c3120ea21b1e
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: dns2socks
+Version: 2.1-r2
+Depends: libc, libpthread
+License: BSD-3-Clause
+Section: net
+URL: http://dns2socks.sourceforge.net/
+Architecture: mipsel_24kc
+Installed-Size: 71680
+Filename: dns2socks_2.1-r2_mipsel_24kc.ipk
+Size: 11427
+SHA256sum: 0775a12aea3600272457ba4a48c38c8be63688ba261385806370491f4e4a5872
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: geoview
+Version: 0.1.11-r1
+Depends: libc
+License: Apache-2.0
+Section: net
+URL: https://github.com/snowie2000/geoview
+Architecture: mipsel_24kc
+Installed-Size: 6891520
+Filename: geoview_0.1.11-r1_mipsel_24kc.ipk
+Size: 2327123
+SHA256sum: ee27fbddf212174614ce2bf1447c62272ffbaa0e9d88c2c7780b00e2ee65ed1a
+Description:  geoview is a handy tool to extract useful information from geo* files.
+
+Package: hysteria
+Version: 2.6.5-r1
+Depends: libc, ca-bundle
+License: MIT
+Section: net
+URL: https://github.com/apernet/hysteria
+Architecture: mipsel_24kc
+Installed-Size: 20951040
+Filename: hysteria_2.6.5-r1_mipsel_24kc.ipk
+Size: 6617251
+SHA256sum: 5bc586ef1fdb7061034d128014c21f1953959549d4eb48f05e5dd39f801da346
+Description:  Hysteria is a feature-packed network utility optimized for networks
+ of poor quality (e.g. satellite connections, congested public Wi-Fi,
+ connecting from China to servers abroad) powered by a custom version
+ of QUIC protocol.
+
+Package: naiveproxy
+Version: 140.0.7339.123-r3
+Depends: libc, libatomic1
+License: BSD 3-Clause
+Section: net
+URL: https://github.com/klzgrad/naiveproxy
+Architecture: mipsel_24kc
+Installed-Size: 9523200
+Filename: naiveproxy_140.0.7339.123-r3_mipsel_24kc.ipk
+Size: 4078448
+SHA256sum: a616f7c3db8271775234403915bdf55b5b4ffbea7bcc112d2605776e41f110a2
+Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
+ censorship resistance and low detectability. Reusing Chrome's stack also
+ ensures best practices in performance and security.
+
+Package: shadowsocks-libev-ss-local
+Version: 3.3.5-r13
+Depends: libc, libev, libmbedtls21, libpthread, libsodium, libpcre2
+License: GPL-3.0-or-later
+Section: net
+URL: https://github.com/shadowsocks/shadowsocks-libev
+CPE-ID: cpe:/a:shadowsocks:shadowsocks-libev
+Architecture: mipsel_24kc
+Installed-Size: 143360
+Filename: shadowsocks-libev-ss-local_3.3.5-r13_mipsel_24kc.ipk
+Size: 47580
+SHA256sum: d9d72a9fa7931a63218bf0f7dbe7228eb305db758d9a6dfd8d2b04735615ab08
+Description:  shadowsocks-libev ss-local
+
+Package: shadowsocks-libev-ss-redir
+Version: 3.3.5-r13
+Depends: libc, libev, libmbedtls21, libpthread, libsodium
+License: GPL-3.0-or-later
+Section: net
+URL: https://github.com/shadowsocks/shadowsocks-libev
+CPE-ID: cpe:/a:shadowsocks:shadowsocks-libev
+Architecture: mipsel_24kc
+Installed-Size: 143360
+Filename: shadowsocks-libev-ss-redir_3.3.5-r13_mipsel_24kc.ipk
+Size: 43036
+SHA256sum: 9ee2e1c8396975431b4545879328c26cc1685336156f1449d32524527720b544
+Description:  shadowsocks-libev ss-redir
+
+Package: shadowsocks-libev-ss-server
+Version: 3.3.5-r13
+Depends: libc, libev, libmbedtls21, libpthread, libsodium, libcares, libpcre2
+License: GPL-3.0-or-later
+Section: net
+URL: https://github.com/shadowsocks/shadowsocks-libev
+CPE-ID: cpe:/a:shadowsocks:shadowsocks-libev
+Architecture: mipsel_24kc
+Installed-Size: 143360
+Filename: shadowsocks-libev-ss-server_3.3.5-r13_mipsel_24kc.ipk
+Size: 52139
+SHA256sum: db2bd12ffd5adf6c9d12073cb515b391bd7ee70aabd5fd680497961e0d52e2dc
+Description:  shadowsocks-libev ss-server
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-r11
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+License: GPL-3.0
+Section: net
+URL: https://github.com/shadowsocksrr/shadowsocksr-libev
+Architecture: mipsel_24kc
+Installed-Size: 204800
+Filename: shadowsocksr-libev-ssr-local_2.5.6-r11_mipsel_24kc.ipk
+Size: 58450
+SHA256sum: d95593f93e364e7cc1f4bfe95e83c908cb5bf47b8abf4258fb5374f8966ae3c8
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-r11
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+License: GPL-3.0
+Section: net
+URL: https://github.com/shadowsocksrr/shadowsocksr-libev
+Architecture: mipsel_24kc
+Installed-Size: 143360
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-r11_mipsel_24kc.ipk
+Size: 52973
+SHA256sum: 3f1e292cc764b2e88f3165fabb62dbfa462a6564c5f6c7629abc018b5504c27b
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-r11
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+License: GPL-3.0
+Section: net
+URL: https://github.com/shadowsocksrr/shadowsocksr-libev
+Architecture: mipsel_24kc
+Installed-Size: 204800
+Filename: shadowsocksr-libev-ssr-server_2.5.6-r11_mipsel_24kc.ipk
+Size: 61294
+SHA256sum: 34c92893e6ebdfa7e8bb4ad0daf832556ec0670e3e62b97a6f09040aa8717218
+Description:  shadowsocksr-libev ssr-server
+
+Package: simple-obfs-client
+Version: 0.0.5-r3
+Depends: libc, libpthread, libev
+Provides: simple-obfs
+License: GPL-3.0-or-later
+Section: net
+URL: https://github.com/shadowsocks/simple-obfs
+Architecture: mipsel_24kc
+Installed-Size: 71680
+Filename: simple-obfs-client_0.0.5-r3_mipsel_24kc.ipk
+Size: 24789
+SHA256sum: 10c1e96dc8d2aedaa420576725c1bda46cd7438264988d1009163c27c9a901b0
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: tcping
+Version: 0.3-r1
+Depends: libc
+License: GPL-2.0-only
+Section: net
+URL: https://github.com/jlyo/tcping
+Architecture: mipsel_24kc
+Installed-Size: 20480
+Filename: tcping_0.3-r1_mipsel_24kc.ipk
+Size: 4437
+SHA256sum: c25f1968e7540b97767b2a61bb38b30e80e2867cbede85f40a131342189c56c9
+Description:  tcping measures the latency of a tcp-connection
+
+Package: trojan-plus
+Version: 10.0.3-r2
+Depends: libc, libpthread, libstdcpp6, libopenssl3, boost, boost-program_options, boost-system
+License: GPL-3.0
+Section: net
+URL: https://github.com/Trojan-Plus-Group/trojan-plus
+Architecture: mipsel_24kc
+Installed-Size: 870400
+Filename: trojan-plus_10.0.3-r2_mipsel_24kc.ipk
+Size: 392322
+SHA256sum: 64856948d4d28bc65ff6756092e3b0a19df53499ad87060df80e733bbd20e8ce
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
